@@ -1,4 +1,4 @@
-name: DevSecOps Pipeline
+name: DevSecOps Pipeline 
 on:
   push:
     branches: [ main ]
@@ -224,4 +224,4 @@ jobs:
                 name: trivy-sarif
                 path: trivy-results.sarif
     # GATE#4: IaC scanning (Since there is no infrastructure cod here and it is out of scope for this class so we could skip it HELL YEAH!)
-    # GATE#5: DAST (We have OWASP ZAP workshop here so we can skip this one too! YOHOOO!)
+    # GATE#5: DAST (We have OWASP ZAP workshop here so we can skip this one too! YOHOOO!) 
